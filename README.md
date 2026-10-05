@@ -15,4 +15,5 @@ To get started on your data visualization journey, load up test_read_atmos_IAA.p
 
 # IMPORTANT INFO:
 Required software: Python 3.=+, numpy, matplotlib.pyplot
+
 Make sure read_atmos_IAA.py is either in the same directory as test_read_atmos_IAA.py or somewhere that Python will look for packages.
