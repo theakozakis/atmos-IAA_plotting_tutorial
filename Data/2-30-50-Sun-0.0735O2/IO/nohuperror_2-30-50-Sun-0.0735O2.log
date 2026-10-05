@@ -1,0 +1,401 @@
+rm: cannot remove 'PHOTOCHEM/OBJECTFILES/*.o': No such file or directory
+make: *** [PhotoMake:438: clean] Error 1
+PhotoMain.f:1769:25:
+
+ 1769 |                 AERSOL(J,3) = USOL(LHCAER,J)*DEN(J)/(CONVER(J,3)) +
+      |                         1
+Warning: Array reference at (1) is out of bounds (3 > 2) in dimension 2
+PhotoMain.f:1770:49:
+
+ 1770 |      &          USOL(LHCAER2,J)*DEN(J)/(CONVER(J,4))
+      |                                                 1
+Warning: Array reference at (1) is out of bounds (4 > 2) in dimension 2
+PhotoMain.f:1769:62:
+
+ 1769 |                 AERSOL(J,3) = USOL(LHCAER,J)*DEN(J)/(CONVER(J,3)) +
+      |                                                              1
+Warning: Array reference at (1) is out of bounds (3 > 2) in dimension 2
+PhotoMain.f:1771:25:
+
+ 1771 |                 AERSOL(J,4) = 0.0
+      |                         1
+Warning: Array reference at (1) is out of bounds (4 > 2) in dimension 2
+rm: cannot remove 'CLIMA/OBJECT_CLIMA/*.o': No such file or directory
+make: *** [ClimaMake:420: clean] Error 1
+CLIMA/RRTM/rrtm.f:835:17:
+
+  832 |         do x = 0, layers
+      |                                                                        2
+......
+  835 |           WBRODL(x) = COLDEP(x)
+      |                 1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/RRTM/rrtm.f:835:29:
+
+  832 |         do x = 0, layers
+      |                                                                        2
+......
+  835 |           WBRODL(x) = COLDEP(x)
+      |                             1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/RRTM/rrtm.f:836:27:
+
+  832 |         do x = 0, layers
+      |                                                                        2
+......
+  836 |           altz(x) = newalt(x)
+      |                           1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/RRTM/rrtm.f:89:21:
+
+   89 |       COMMON /CVRATM/    HVRATM
+      |                     1
+Warning: Named COMMON block ‘cvratm’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:94:21:
+
+   94 |       COMMON /CVRCLD/    HVRCLD
+      |                     1
+Warning: Named COMMON block ‘cvrcld’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:96:21:
+
+   96 |       COMMON /CVREXT/    HVREXT
+      |                     1
+Warning: Named COMMON block ‘cvrext’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:87:21:
+
+   87 |       COMMON /CVRREG/    HVRREG
+      |                     1
+Warning: Named COMMON block ‘cvrreg’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:92:21:
+
+   92 |       COMMON /CVRRGC/    HVRRGC
+      |                     1
+Warning: Named COMMON block ‘cvrrgc’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:98:21:
+
+   98 |       COMMON /CVRRGX/    HVRRGX
+      |                     1
+Warning: Named COMMON block ‘cvrrgx’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:93:21:
+
+   93 |       COMMON /CVRRTC/    HVRRTC
+      |                     1
+Warning: Named COMMON block ‘cvrrtc’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:86:21:
+
+   86 |       COMMON /CVRRTM/    HVRRTM
+      |                     1
+Warning: Named COMMON block ‘cvrrtm’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:88:21:
+
+   88 |       COMMON /CVRRTR/    HVRRTR
+      |                     1
+Warning: Named COMMON block ‘cvrrtr’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:97:21:
+
+   97 |       COMMON /CVRRTX/    HVRRTX
+      |                     1
+Warning: Named COMMON block ‘cvrrtx’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:90:21:
+
+   90 |       COMMON /CVRSET/    HVRSET
+      |                     1
+Warning: Named COMMON block ‘cvrset’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:91:21:
+
+   91 |       COMMON /CVRTAU/    HVRTAU
+      |                     1
+Warning: Named COMMON block ‘cvrtau’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:95:21:
+
+   95 |       COMMON /CVRUTL/    HVRUTL
+      |                     1
+Warning: Named COMMON block ‘cvrutl’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:100:21:
+
+  100 |       COMMON /HVRSN1/    HVRKG1
+      |                     1
+Warning: Named COMMON block ‘hvrsn1’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:109:22:
+
+  109 |       COMMON /HVRSN10/   HVRKG10
+      |                      1
+Warning: Named COMMON block ‘hvrsn10’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:110:22:
+
+  110 |       COMMON /HVRSN11/   HVRKG11
+      |                      1
+Warning: Named COMMON block ‘hvrsn11’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:111:22:
+
+  111 |       COMMON /HVRSN12/   HVRKG12
+      |                      1
+Warning: Named COMMON block ‘hvrsn12’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:112:22:
+
+  112 |       COMMON /HVRSN13/   HVRKG13
+      |                      1
+Warning: Named COMMON block ‘hvrsn13’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:113:22:
+
+  113 |       COMMON /HVRSN14/   HVRKG14
+      |                      1
+Warning: Named COMMON block ‘hvrsn14’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:114:22:
+
+  114 |       COMMON /HVRSN15/   HVRKG15
+      |                      1
+Warning: Named COMMON block ‘hvrsn15’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:115:22:
+
+  115 |       COMMON /HVRSN16/   HVRKG16
+      |                      1
+Warning: Named COMMON block ‘hvrsn16’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:101:21:
+
+  101 |       COMMON /HVRSN2/    HVRKG2
+      |                     1
+Warning: Named COMMON block ‘hvrsn2’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:102:21:
+
+  102 |       COMMON /HVRSN3/    HVRKG3
+      |                     1
+Warning: Named COMMON block ‘hvrsn3’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:103:21:
+
+  103 |       COMMON /HVRSN4/    HVRKG4
+      |                     1
+Warning: Named COMMON block ‘hvrsn4’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:104:21:
+
+  104 |       COMMON /HVRSN5/    HVRKG5
+      |                     1
+Warning: Named COMMON block ‘hvrsn5’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:105:21:
+
+  105 |       COMMON /HVRSN6/    HVRKG6
+      |                     1
+Warning: Named COMMON block ‘hvrsn6’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:106:21:
+
+  106 |       COMMON /HVRSN7/    HVRKG7
+      |                     1
+Warning: Named COMMON block ‘hvrsn7’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:107:21:
+
+  107 |       COMMON /HVRSN8/    HVRKG8
+      |                     1
+Warning: Named COMMON block ‘hvrsn8’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:108:21:
+
+  108 |       COMMON /HVRSN9/    HVRKG9
+      |                     1
+Warning: Named COMMON block ‘hvrsn9’ at (1) shall be of the same size as elsewhere (16 vs 15 bytes)
+CLIMA/RRTM/rrtm.f:81:21:
+
+   81 |       COMMON /OUTPUT/    TOTUFLUX(0:MXLAY), TOTDFLUX(0:MXLAY),
+      |                     1
+Warning: Named COMMON block ‘output’ at (1) shall be of the same size as elsewhere (6528 vs 3264 bytes)
+CLIMA/RRTM/rrtatm.f:6613:38:
+
+ 6613 |                         CALL CMPALT(2,PTMP,TTMP,
+      |                                      1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:6613:43:
+
+ 6613 |                         CALL CMPALT(2,PTMP,TTMP,
+      |                                           1
+Warning: Actual argument contains too few elements for dummy argument ‘tm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:6614:29:
+
+ 6614 |      &                       WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                             1
+Warning: Actual argument contains too few elements for dummy argument ‘denw’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:6614:51:
+
+ 6614 |      &                       WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                                                   1
+Warning: Actual argument contains too few elements for dummy argument ‘zmdl’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:878:38:
+
+  878 |                         CALL CMPALT(2,PTMP,TTMP,
+      |                                      1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:878:43:
+
+  878 |                         CALL CMPALT(2,PTMP,TTMP,
+      |                                           1
+Warning: Actual argument contains too few elements for dummy argument ‘tm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:879:29:
+
+  879 |      &                       WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                             1
+Warning: Actual argument contains too few elements for dummy argument ‘denw’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:879:51:
+
+  879 |      &                       WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                                                   1
+Warning: Actual argument contains too few elements for dummy argument ‘zmdl’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:943:32:
+
+  943 |                   CALL CMPALT(2,PTMP,TTMP,
+      |                                1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:943:37:
+
+  943 |                   CALL CMPALT(2,PTMP,TTMP,
+      |                                     1
+Warning: Actual argument contains too few elements for dummy argument ‘tm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:944:23:
+
+  944 |      &                 WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                       1
+Warning: Actual argument contains too few elements for dummy argument ‘denw’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:944:45:
+
+  944 |      &                 WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                                             1
+Warning: Actual argument contains too few elements for dummy argument ‘zmdl’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:1007:32:
+
+ 1007 |                   CALL CMPALT(2,PTMP,TTMP,
+      |                                1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:1007:37:
+
+ 1007 |                   CALL CMPALT(2,PTMP,TTMP,
+      |                                     1
+Warning: Actual argument contains too few elements for dummy argument ‘tm’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:1008:23:
+
+ 1008 |      &                 WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                       1
+Warning: Actual argument contains too few elements for dummy argument ‘denw’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:1008:45:
+
+ 1008 |      &                 WVTMP,ZTMP(1),REF_LAT,ZTMP)
+      |                                             1
+Warning: Actual argument contains too few elements for dummy argument ‘zmdl’ (2/3400) at (1)
+CLIMA/RRTM/rrtatm.f:5853:21:
+
+ 5853 |       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+      |                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (16264 vs 16256 bytes)
+CLIMA/RRTM/rrtatm.f:5699:21:
+
+ 5699 |       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+      |                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (16256 vs 16264 bytes)
+CLIMA/RRTM/rrtatm.f:76:21:
+
+   76 |       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+      |                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (16256 vs 16264 bytes)
+CLIMA/COUPLE/translatem.f:95:18:
+
+   94 |         do ij = 0, NLAYERS
+      |                                                                        2
+   95 |            newalt(ij) = ALTF(ND-ij)
+      |                  1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/COUPLE/translatem.f:104:34:
+
+  103 |         do j = 1, ND
+      |                                                                        2
+  104 |           Ncol = ((Pres(j-1)-Pres(j))*1.E2)/((G/100.)*muatm)
+      |                                  1
+Warning: Array reference at (1) out of bounds (101 > 100) in loop beginning at (2)
+CLIMA/COUPLE/output_photo.f:92:37:
+
+   91 |         do i = 0, NZ
+      |                                                                        2
+   92 |            water_(i+diffpts) = water(i)
+      |                                     1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/COUPLE/output_photo.f:93:20:
+
+   91 |         do i = 0, NZ
+      |                                                                        2
+   92 |            water_(i+diffpts) = water(i)
+   93 |            alt_new_(i) = alt_new_(i)
+      |                    1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/COUPLE/output_photo.f:93:34:
+
+   91 |         do i = 0, NZ
+      |                                                                        2
+   92 |            water_(i+diffpts) = water(i)
+   93 |            alt_new_(i) = alt_new_(i)
+      |                                  1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+CLIMA/COUPLE/output_photo.f:94:37:
+
+   91 |         do i = 0, NZ
+      |                                                                        2
+......
+   94 |            T_new_(i+diffpts) = T_new(i)
+      |                                     1
+Warning: Array reference at (1) out of bounds (0 < 1) in loop beginning at (2)
+/usr/bin/ld: warning: size of symbol `xsectr_' changed from 9256 in CLIMA/OBJECT_CLIMA/rrtatm.o to 12064 in CLIMA/OBJECT_CLIMA/extra.o
+/usr/bin/ld: warning: NOTE: size discrepancies can cause real problems.  Investigation is advised.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+cp: cannot stat 'CLIMA/IO/TempIn.dat': No such file or directory
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
